@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edPass"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/btnExit"
+        android:hint="@string/enter_pass"
+        android:inputType="textPassword"
+        android:layout_alignLeft="@+id/edEmail"
+        android:layout_alignRight="@+id/edEmail" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exit"
+        android:id="@+id/btnExit"
+        android:layout_centerInParent="true"
+        android:layout_margin="15dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prevent_sleep"
+        android:id="@+id/chBoxPreventSleep"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/btnChangeEmail"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_alignLeft="@+id/btnChangeEmail" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/edEmail"
+        android:layout_marginRight="15dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/btnExit"
+        android:layout_toLeftOf="@+id/btnChangeEmail"
+        android:layout_marginTop="15dp"
+        android:hint="@string/email" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change_email"
+        android:id="@+id/btnChangeEmail"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/btnExit"
+        android:layout_marginTop="15dp"
+        android:layout_alignLeft="@+id/btnExit" />
+
+</RelativeLayout>

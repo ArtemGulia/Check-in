@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Check-in</string>
+    <string name="enter_your_name">Tap Here to Enter Your Name</string>
+    <string name="check_in">Check In</string>
+    <string name="thx_for_checkin">Thank you for checking in,</string>
+    <string name="empty_name">Please, Enter your name</string>
+    <string name="enter_pass">Enter Password</string>
+    <string name="wrong_pass">Wrong Password</string>
+    <string name="exit">Close App</string>
+    <string name="prevent_sleep">Prevent from sleeping?</string>
+    <string name="email">Enter email</string>
+    <string name="change_email">Change email</string>
+</resources>

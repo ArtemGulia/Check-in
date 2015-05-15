@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/FragmentContainer">
+
+    <EditText
+        android:id="@+id/edTxtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:inputType="text"
+        android:hint="@string/enter_your_name" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check_in"
+        android:id="@+id/btnCheckin"
+        android:layout_below="@id/edTxtName"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/thx_for_checkin"
+        android:id="@+id/txtThx"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/txtName"
+        android:layout_below="@+id/txtThx"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible" />
+</RelativeLayout>
